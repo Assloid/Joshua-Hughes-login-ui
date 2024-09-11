@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login UI</title>
+	</head>
+	<body>
+		<div id="loginbox">
+			<div id="innerlogbox">
+				<h1> TRAVEL ANGENCY</h1>
+				<h3 id="head3">Plan Your Perfect Trip</h3>
+			</div>
+
+			<input type="email" id="insert" name="email" placeholder="Enter Email"><br><br>
+			<input type="password" id="insert" placeholder="Enter Password"><br><br>
+
+			<a href="loginbox">Forgot Your Password?</a><br><br>
+
+			<input type="submit" id="submit" value="Log In">
+
+			<h4>Connect With Us</h4>
+			<img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" id="twitter">
+			<img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/facebook-logo-design-template-14a38c75b25fe8a11e30a7202e6846cc_screen.jpg?ts=1616956224" id="facebook">
+			<img src="https://static-00.iconduck.com/assets.00/social-instagram-icon-512x512-6mp2zfl3.png" id="instagram">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" id="google">
+			
+			<div id="signin">
+				<p>Don't have an account?
+				<a href="loginbox">Sign Up Now</a><br><br>
+			</div>
+		</div>
+		
+	</body>
+</html>
