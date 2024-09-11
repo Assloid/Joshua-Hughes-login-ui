@@ -1,0 +1,102 @@
+body 
+{
+    background-image: url(https://wallpapers.com/images/featured/travel-ibk7fgrvtvhs7qzg.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
+h1, #head3 {
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h4 {
+    color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#loginbox {
+    background-color: lightblue;
+    height: 380px;
+    width: 330px;
+    text-align: center;
+    border-radius: 30px;
+    border-color: darkblue;
+    box-shadow: 7px 7px 7px 7px darkblue;
+    -webkit-box-shadow: -1px 5px 20px darkblue; 
+}
+
+#innerlogbox {
+    margin-top: -21px;
+    background-color: darkred;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: brown;
+}
+
+#insert {
+    border-radius: 10px;
+    border-color: lightblue;
+    background-color: white;
+    height: 17px;
+    font-weight: 100;
+}
+
+#submit {
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border-color: brown;
+    background-color: darkred;
+    color: white;
+    box-shadow: -5px 2px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+#submit:hover {
+    background-color: grey;
+    border-color: grey;
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+}
+
+#signin {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(130, 124, 124);
+    margin-left: 35px;
+    margin-top: -3px;
+    height: 1000px;
+    width: 270px;
+}
+
+
+#twitter, #facebook, #instagram, #google{
+    width: 30px;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+#twitter, #facebook, #instagram, #google:hover{
+    cursor: pointer;
+}
+
+
+
